@@ -18,7 +18,7 @@ for i in range(len(boys)):
     couple.append(boy)
     couple.append(girl)
 
-    couples.append(couple)
+    couples.append(tuple(couple))
 
     boys.pop(boy_index)
     girls.pop(girl_index)
